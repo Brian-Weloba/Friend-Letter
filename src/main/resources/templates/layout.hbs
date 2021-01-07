@@ -1,0 +1,22 @@
+{{#block "header"}}
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>{{#block "title"}}Hello Friend!{{/block}}</title>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    </head>
+    <body>
+{{/block}}
+
+<!--begin inner template-->
+<div class="container">
+    {{#block "conent"}}
+
+    {{/block}}
+
+</div>
+<!--end of inner template-->
+{{#block "footer"}}
+    </body>
+    </html>
+{{/block}}
